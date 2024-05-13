@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  font-size: min(calc(100vh / 25), calc(100vw / 25));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +26,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                body,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                html {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  height: 100%;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  overflow: hidden;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
 
 @layer utilities {
   .text-balance {
